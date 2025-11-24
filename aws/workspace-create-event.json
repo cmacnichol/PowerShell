@@ -1,0 +1,16 @@
+{
+  "version": "0",
+  "id": "test-event-001",
+  "detail-type": "WorkSpaces Workspace State Change",
+  "source": "aws.workspaces",
+  "account": "123456789012",
+  "time": "2025-11-20T21:00:00Z",
+  "region": "us-east-1",
+  "resources": ["arn:aws:workspaces:us-east-1:123456789012:workspace/ws-ABC123456"],
+  "detail": {
+    "workspaceId": "ws-ABC123456",
+    "state": "PENDING",
+    "userName": "jdoe",
+    "runningMode": "AUTO_STOP"
+  }
+}
